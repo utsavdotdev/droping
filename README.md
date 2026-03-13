@@ -18,9 +18,9 @@ DropPing is a small notifier that watches domain activity and alerts you when so
 
 ### Foundation
 
-- [x] Initialize the Node.js + TypeScript starter
-- [ ] Choose a simple way to define the domain to watch
-- [ ] Print the result of one real domain check
+- [x] Initialize the Node.js + TypeScript starter with ES module syntax
+- [x] Choose a simple way to define the domain to watch
+- [x] Print the result of one real domain check
 
 ### Domain monitoring
 

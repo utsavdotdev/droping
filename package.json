@@ -2,21 +2,23 @@
   "name": "droping",
   "version": "1.0.0",
   "description": "a notifier for dropped domains",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "tsx src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.6.3",
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  },
   "devDependencies": {
     "@types/node": "^25.5.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "dotenv": "^17.3.1"
   }
 }
